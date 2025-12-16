@@ -8,7 +8,7 @@ Prove what is required for a VRF to advertise routes as EVPN Type-5 by testing e
 ---
 
 ## Test Environment
-- Device: spine1 (aggr1)
+- Device: spine1
 - Source VRF: EXIT (has 11.11.11.11/32)
 - Target VRF: OOB (will advertise to EVPN)
 - Remote Peer: leaf-1 (10.1.1.3)
